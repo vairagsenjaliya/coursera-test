@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+            margin: 11px;
+        
+         
+        }
+        #header{
+            position: relative;
+            text-align: center;
+            text-transform: capitalize;
+            margin-bottom: 30px;
+        }
+        body{
+            display: inline;
+            position: relative;
+            
+            
+        }
+        
+        .h1{
+           
+            text-align:center;
+            margin-left: 185px;
+           margin-top: -11px;
+           margin-right: -11px;
+           border-radius: 10px;
+           border: 2px solid black;
+           padding: 6px;
+        
+        
+            color:white;
+        
+        
+        
+        
+            text-transform: capitalize;
+        }
+        #ab{
+            background-color: rgb(230, 147, 24);
+            
+        }
+        #bc{
+            background-color: burlywood;
+        }
+        #cd{
+            background-color: chocolate;
+            
+        }   
+        
+        #p1{
+            position:static;
+            background-color: blanchedalmond;
+            border: 2px solid rgb(10, 10, 9);
+            padding: 10px;
+
+            height:auto; 
+            border-radius: 10px;      
+
+        }
+        #p2{
+            position:static;
+            background-color: coral;
+            border: 2px solid rgb(10, 10, 9);
+            padding: 10px;
+            height: auto;
+            border-radius: 10px;
+        
+        
+
+        }
+        #p3{
+            position:static;
+            background-color: cornflowerblue;
+            border: 2px solid rgb(10, 10, 9);
+            padding: 10px;
+            height: auto;
+            margin-right: 9px;
+           
+            border-radius: 10px;
+        
+        }
+        
+    .row{
+        display: inline;
+        width: 50%;
+        font-size: 18px;
+        font-family: sans-serif;
+    
+        float: none;
+    
+        
+        overflow: auto;
+    }
+  
+    /* For mobile phones: */
+
+
+
+@media only screen and (min-width: 992px) {
+  
+  .col-4,
+ 
+  .col-12
+  {
+      float:left;
+      
+    
+  }
+  /* For desktop: */
+  
+  .col-4 {width: 31%;}
+ 
+}
+@media only screen and (max-width:991px) and (min-width:768px){
+ 
+  .col-s-6,
+ 
+  .col-s-12
+  {
+      float:left;
+      
+}
+  
+  .col-s-6 {width: 47%;}
+  
+  .col-s-12 {
+      width: 100%;
+      
+    }
+  } 
+    </style>
+</head>
+<body>
+    <h1 id=header>Our Menu</h1>
+    <div class="row">
+        <div class="col-4 col-s-6" id="p1">
+            <h4 class="h1" id="ab">chicken</h4>
+            Lorem ipsum dolor sit amet consectetur  quos adipisicing elit. Eaque porro harum Quisquam dolor iusto consequatur ad pariatur quasi optio unde necessitatibus nisi inventore, tenetur cumque. Quos officiis sed, assumenda iusto itaque iste id.
+            
+        </div>
+        <div class="col-4 col-s-6 " id="p2">
+            <h4 class="h1" id="bc">Beef</h4>
+            Lorem ipsum dolor sit amet consectetur  adipisicing elit. Quasi quibusdam aperiam consectetur laboriosam iure maxime voluptates id possimus quam, enim voluptatum necessitatibus nostrum atque sunt ea earum unde repellendus in!
+        </div>
+        <div class="col-s-12 col-4" id="p3">
+            <h4 class="h1" id="cd">Shushi</h4>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque porro harum, Eaque porro harum exercitationem fugiat, delectus officiis, vel laborum quae sed temporibus iusto dicta? Cum saepe suscipit quis mollitia aperiam laborum
+             quos
+        </div>    
+
+    </div>
+    
+    
+</body>
+</html>
