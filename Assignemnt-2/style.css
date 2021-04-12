@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 10px;
+}
+#header{
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+body{
+    display: inline;
+    position: relative;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+    
+}
+
+#ab{
+    position: absolute;
+    background-color: rgb(230, 147, 24);
+    border: 2px solid black;
+    top: -13;
+    right: -13;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 5px;
+    color: white;
+    
+    
+}
+#bc{
+    position: absolute;
+    background-color: burlywood;
+    border: 2px solid black;
+    top: -13;
+    right: -13;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    
+    
+}
+#cd{
+    position: absolute;
+    background-color: chocolate;
+    border: 2px solid black;
+    top: -13;
+    right: -13;
+    height: 35px;
+    width: 120px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    margin: 10px;
+    color: white;
+    
+    
+    
+    
+}   
+
+#p1{
+    position:relative;
+    background-color: blanchedalmond;
+
+    
+
+ 
+    border-radius: 4px;      
+    margin-right: 10px;
+    border: 2px solid black;
+
+    overflow: hidden;
+
+}
+#p2{
+    position:relative;
+    background-color: coral;
+    border-radius: 4px;      
+    margin-right: 10px;
+    border: 2px solid black;
+
+    overflow: hidden;
+
+
+
+}
+#p3{
+    position:relative;
+    background-color: cornflowerblue;
+    border-radius: 4px;      
+    margin-right: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+
+}
+
+.row{
+display: inline;
+width: 100%;
+font-size: 18px;
+
+float: none;
+
+}
+
+/* For mobile phones: */
+
+
+
+@media only screen and (min-width: 992px) {
+
+.col-4,
+
+.col-12
+{
+float:left;
+
+
+}
+/* For desktop: */
+
+.col-4 {width: 31%;}
+
+}
+@media only screen and (max-width:991px) and (min-width:768px){
+
+.col-s-6,
+
+.col-s-12
+{
+float:left;
+
+}
+
+.col-s-6 {width: 47%;}
+
+.col-s-12 {
+width: 100%;
+
+}
+} 
